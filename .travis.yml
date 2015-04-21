@@ -3,8 +3,7 @@ rvm:
   - 2.2.1
 env:
   global:
-  - secure: VFofNEA81m3eHRxZ+PVbrKELMkHIQek/G6xKCszh+SSntCT2iLgem/TFV5P2ozVV1zcgUWgi1POE8Cblvp4B5Ulkb3SjhCMNkMGq7HM85Y0j9+eQGrpe690wtehOsOj9g27TuMWqQu7PasLTNFd+Zam4hU5g/NyVOWChF7FUdFM=
-  - secure: qjuM7Nj2IpTdcIr2CdrJArx3/UdVtdf3koP5xmqU/cgXPeEgIhpzzA6LA1aHfafnSu2wuoeYtsHVrYFZuq+fLGR7tXq+JcVqF4gCDIxL1huBD0NB9aWSE8oyzFnxnFqph5yWMc+Hx54P8vOmRGAywoiSipcuBgl13NGHGEpUXcY=
+  - secure: "FrUtnEwOKmTSy4wNhEU9QscXBkjRTZfZy5DAJkhcB5xVitdKRuR99OC5rvoVgodEDmxvMRdFsDHcVqz2g+AfrCdQfx3tBt2ogML13abgMnNapa5fyrO3u6/ZsN1gPkOyBYsQ3x6IxE9FwUKnwZvf5nkXj+SMWi516MoDXenS8Ic="
   - SERVER_ENV=CI
 script:
   - bundle exec rspec
