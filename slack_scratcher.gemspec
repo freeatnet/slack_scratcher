@@ -36,16 +36,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency('dotenv')
   spec.add_development_dependency('rake')
 
-  # for Test
-  spec.add_development_dependency('guard')
-  spec.add_development_dependency('guard-rspec')
-  spec.add_development_dependency('rspec')
-  spec.add_development_dependency('rspec-its')
-  spec.add_development_dependency('simplecov')
-  spec.add_development_dependency('simplecov-rcov')
-
-  # Test Coverage
-  spec.add_development_dependency('coveralls')
+  # Test dependencies can be found in the Gemfile
 
   # Style Guide
   spec.add_development_dependency('rubocop')
