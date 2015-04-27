@@ -1,9 +1,6 @@
 $LOAD_PATH.unshift File.dirname(__FILE__)
 require 'logger'
-require 'dotenv'
 require 'faraday'
-
-Dotenv.load
 
 # Importing slack logs from exported fils or API to elasticsearch or
 # other detastores
